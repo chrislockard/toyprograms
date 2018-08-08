@@ -1,0 +1,49 @@
+[
+    {
+        "Product":  "Adobe Coldfusion",
+        "Version":  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "Port":     [8500],
+        "Path":     [
+            "%2FCFIDE%2Fadministrator%2Findex.cfm"
+            ]
+    },
+    {
+        "Product":  "Apache Tomcat",
+        "Version":  [4, 5, 6, 7],
+        "Port":     [8080, 8081, 80, 81, 8443],
+        "Path":     [
+            "%2FWEB-INF%2F",
+            "%2FMETA-INF%2F",
+            "%2Fmanager%2Fhtml",
+            "%2Fmanager%2Ftext%2Fdeploy",
+            "%2Fmanager%2Ftext%2Fundeploy",
+            "%2Fmanager%2Ftext%2Flist",
+            "%2Fmanager%2Ftext%2Fserverinfo",
+            "%2Fmanager%2Ftext%2Fresources",
+            "%2Fmanager%2Ftext%2Fsessions?path=%2Fexamples",
+            "%2Fmanager%2Ftext%2Fthreaddump",
+            "%2Fmanager%2Ftext%2Fvminfo",
+            "%2Fmanager%2Fstatus",
+            "%2Fmanager%2Fstatus?XML=true",
+            "%2Fmanager%2Fstatus%2Fall",
+            "%2Fmanager%2Fstatus%2Fall%3FXML%3Dtrue",
+            "qry=*%3Atype%3DRequestProcessor%2C* --> type=RequestProcessor"
+            ]
+    },
+    {
+        "Product":  "McAfee EPO",
+        "Version":  [1, 2, 3, 4, 5],
+        "Port":     [8443],
+        "Path":     [
+            "%2Fcore"
+            ]
+    },
+    {
+        "Product":  "Wordpress",
+        "Version":  [1, 2, 3, 4, 5],
+        "Port":     [80, 443, 8080, 8443],
+        "Path":     [
+            "%2Fwp-login.php"
+            ]
+    }
+]

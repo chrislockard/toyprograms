@@ -1,0 +1,2 @@
+# Vuln Blog
+This project is a vulnerable microblog built in python using the flask framework from Miguel Grinberg's tutorial located at https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world.

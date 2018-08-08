@@ -1,0 +1,24 @@
+<!--<!doctype html>
+<title>PySysExec - Execute OS commands</title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+<div class=page>
+  <h1>Enter Command</h1>
+  <form action="{{ url_for('do_cmd') }}" method=post class=do-cmd>
+    <input type=text size=50 name=command>
+    <input type=submit value=Submit>
+  </form>
+</div>
+</html>
+-->
+{% extends "bootstrap/base.html" %}
+{% block html_attribs %} lang="en"{% endblock %}
+{% block title %}PySysExec - Execute OS commands{% endblock %}
+
+{% block content %}
+  <h1>Enter Command</h1>
+  <form action="{{ url_for('do_cmd') }}" method=post class=do-cmd>
+    <input type=text size=50 name=command>
+    <input type=submit value=Submit>
+  </form>
+  <pre>Output results go here</pre>
+{% endblock %}
